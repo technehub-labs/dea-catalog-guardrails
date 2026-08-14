@@ -1,25 +1,25 @@
-# Metamodel Pointer — Standard
-# Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
+# Metamodel Pointer — Guardrail
+# Auto-generated from OpenDEAM v0.4.0 (dea-architecture-framework, ADR-0004).
 # Do not edit manually — allocation changes go through the root model
 # (structural: ADR + minor bump; additive: PR + patch bump).
 metamodel:
-  version: v0.2.1
-  entity_id: dea:entity-standard
-  class_alias: STD
+  version: v0.4.0
+  entity_id: dea:entity-guardrail
+  class_alias: GRD
   layer: L2
   building_block: L2-rules-guidance
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=STD"
+  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=GRD"
 
 catalog:
-  name: Standard
-  repo: technehub-labs/dea-catalog-standards
+  name: Guardrail
+  repo: technehub-labs/dea-catalog-guardrails
   status: planned
 
 description: |
-  A referenced industry standard or framework (TOGAF, Zachman, ISO, IEEE) the enterprise aligns to.
+  An enforceable constraint on technology or solution choices. Carries an enforcement maturity level (advisory | automated-warn | automated-block | platform-enforced) — policy-as-code / platform-guardrail practice rather than a static compliance document. Renamed from Standard in v0.4.0 (ADR-0004 D4).
 
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=STD"
-  github: https://github.com/technehub-labs/dea-catalog-standards
+  viewer: "https://technehub-labs.github.io/metamodel/?entity=GRD"
+  github: https://github.com/technehub-labs/dea-catalog-guardrails
