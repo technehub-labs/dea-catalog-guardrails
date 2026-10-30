@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Test
+.pytest_cache/
+
+# Generated - CATALOG.yaml is COMMITTED, not ignored: the freshness gate
+# (regenerate_catalog.py --check) diffs the committed index (catalog
+# repository standard par. 6; IC/BC/IA precedent).
