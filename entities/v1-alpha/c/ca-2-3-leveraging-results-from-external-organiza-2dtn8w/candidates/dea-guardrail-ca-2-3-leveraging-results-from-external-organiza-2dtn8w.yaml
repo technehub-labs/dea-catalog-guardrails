@@ -1,0 +1,34 @@
+id: dea:guardrail-ca-2-3-leveraging-results-from-external-organiza-2dtn8w
+type: Guardrail
+name: CA-2.3 — Leveraging Results from External Organizations
+description: Leverage the results of control assessments performed by organization-defined
+  on organization-defined when the assessment meets organization-defined.
+version: 0.1.0
+lifecycle_status: proposed
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-2.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-13'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-13'
+  updated_at: '2026-11-13'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- ca
+- nist-800-53

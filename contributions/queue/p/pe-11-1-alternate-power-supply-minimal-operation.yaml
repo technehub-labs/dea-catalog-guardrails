@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PE-11.1
 name: PE-11.1 — Alternate Power Supply — Minimal Operational Capability
-description: Provide an alternate power supply for the system that is activated organization-defined and
-  that can maintain minimally required operational capability in the event of an extended loss of the
-  primary power source.
+description: Provide an alternate power supply for the system that is activated organization-defined
+  and that can maintain minimally required operational capability in the event of
+  an extended loss of the primary power source.
 enforcement: advisory
 domain: enterprise-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PE-11.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pe
 - nist-800-53
 slug: pe-11-1-alternate-power-supply-minimal-operation
+assigned_id: dea:guardrail-pe-11-1-alternate-power-supply-minimal-operation-sz6s9b
+admitted: '2026-11-13'

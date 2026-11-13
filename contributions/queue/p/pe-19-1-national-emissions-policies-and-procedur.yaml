@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PE-19.1
 name: PE-19.1 — National Emissions Policies and Procedures
-description: Protect system components, associated data communications, and networks in accordance with
-  national Emissions Security policies and procedures based on the security category or classification
-  of the information.
+description: Protect system components, associated data communications, and networks
+  in accordance with national Emissions Security policies and procedures based on
+  the security category or classification of the information.
 enforcement: advisory
 domain: enterprise-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PE-19.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pe
 - nist-800-53
 slug: pe-19-1-national-emissions-policies-and-procedur
+assigned_id: dea:guardrail-pe-19-1-national-emissions-policies-and-procedur-wakb6y
+admitted: '2026-11-13'

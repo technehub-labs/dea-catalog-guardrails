@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AU-6.7
 name: AU-6.7 — Permitted Actions
-description: Specify the permitted actions for each organization-defined associated with the review, analysis,
-  and reporting of audit record information.
+description: Specify the permitted actions for each organization-defined associated
+  with the review, analysis, and reporting of audit record information.
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-6.7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - au
 - nist-800-53
 slug: au-6-7-permitted-actions
+assigned_id: dea:guardrail-au-6-7-permitted-actions-b7bak6
+admitted: '2026-11-13'

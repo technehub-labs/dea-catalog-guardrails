@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 IR-4.11
 name: IR-4.11 — Integrated Incident Response Team
-description: Establish and maintain an integrated incident response team that can be deployed to any location
-  identified by the organization in organization-defined.
+description: Establish and maintain an integrated incident response team that can
+  be deployed to any location identified by the organization in organization-defined.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IR-4.11)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ir
 - nist-800-53
 slug: ir-4-11-integrated-incident-response-team
+assigned_id: dea:guardrail-ir-4-11-integrated-incident-response-team-3yhrku
+admitted: '2026-11-13'

@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 IA-2
 name: IA-2 — Identification and Authentication (Organizational Users)
-description: Uniquely identify and authenticate organizational users and associate that unique identification
-  with processes acting on behalf of those users.
+description: Uniquely identify and authenticate organizational users and associate
+  that unique identification with processes acting on behalf of those users.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IA-2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ia
 - nist-800-53
 slug: ia-2-identification-and-authentication-organizat
+assigned_id: dea:guardrail-ia-2-identification-and-authentication-organizat-bssq5g
+admitted: '2026-11-13'

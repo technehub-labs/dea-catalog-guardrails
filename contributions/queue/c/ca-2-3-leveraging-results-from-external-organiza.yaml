@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CA-2.3
 name: CA-2.3 — Leveraging Results from External Organizations
-description: Leverage the results of control assessments performed by organization-defined on organization-defined
-  when the assessment meets organization-defined.
+description: Leverage the results of control assessments performed by organization-defined
+  on organization-defined when the assessment meets organization-defined.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-2.3)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ca
 - nist-800-53
 slug: ca-2-3-leveraging-results-from-external-organiza
+assigned_id: dea:guardrail-ca-2-3-leveraging-results-from-external-organiza-2dtn8w
+admitted: '2026-11-13'

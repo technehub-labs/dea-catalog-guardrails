@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AU-13.3
 name: AU-13.3 — Unauthorized Replication of Information
-description: Employ discovery techniques, processes, and tools to determine if external entities are replicating
-  organizational information in an unauthorized manner.
+description: Employ discovery techniques, processes, and tools to determine if external
+  entities are replicating organizational information in an unauthorized manner.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-13.3)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - au
 - nist-800-53
 slug: au-13-3-unauthorized-replication-of-information
+assigned_id: dea:guardrail-au-13-3-unauthorized-replication-of-information-6c4xme
+admitted: '2026-11-13'

@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CP-10.4
 name: CP-10.4 — Restore Within Time Period
-description: Provide the capability to restore system components within organization-defined from configuration-controlled
-  and integrity-protected information representing a known, operational state for the components.
+description: Provide the capability to restore system components within organization-defined
+  from configuration-controlled and integrity-protected information representing a
+  known, operational state for the components.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-10.4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cp
 - nist-800-53
 slug: cp-10-4-restore-within-time-period
+assigned_id: dea:guardrail-cp-10-4-restore-within-time-period-ged6c8
+admitted: '2026-11-13'

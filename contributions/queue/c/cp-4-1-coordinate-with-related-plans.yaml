@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CP-4.1
 name: CP-4.1 — Coordinate with Related Plans
-description: Coordinate contingency plan testing with organizational elements responsible for related
-  plans.
+description: Coordinate contingency plan testing with organizational elements responsible
+  for related plans.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-4.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cp
 - nist-800-53
 slug: cp-4-1-coordinate-with-related-plans
+assigned_id: dea:guardrail-cp-4-1-coordinate-with-related-plans-xradbu
+admitted: '2026-11-13'

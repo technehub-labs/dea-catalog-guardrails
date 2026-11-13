@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 IA-5.2
 name: IA-5.2 — Public Key-based Authentication
-description: '(a) For public key-based authentication: (1) Enforce authorized access to the corresponding
-  private key; and (2) Map the authenticated identity to the account of the individual or group; and (b)
-  When public key infrastructure (PKI) is used: (1) Validate certificates by constructing and verifying
-  a certification path to'
+description: '(a) For public key-based authentication: (1) Enforce authorized access
+  to the corresponding private key; and (2) Map the authenticated identity to the
+  account of the individual or group; and (b) When public key infrastructure (PKI)
+  is used: (1) Validate certificates by constructing and verifying a certification
+  path to'
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IA-5.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ia
 - nist-800-53
 slug: ia-5-2-public-key-based-authentication
+assigned_id: dea:guardrail-ia-5-2-public-key-based-authentication-hs5mnj
+admitted: '2026-11-13'

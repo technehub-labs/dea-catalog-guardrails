@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-17
 name: AC-17 — Remote Access
-description: a. Establish and document usage restrictions, configuration/connection requirements, and
-  implementation guidance for each type of remote access allowed; and b. Authorize each type of remote
-  access to the system prior to allowing such connections.
+description: a. Establish and document usage restrictions, configuration/connection
+  requirements, and implementation guidance for each type of remote access allowed;
+  and b. Authorize each type of remote access to the system prior to allowing such
+  connections.
 enforcement: automated-block
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-17)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-17-remote-access
+assigned_id: dea:guardrail-ac-17-remote-access-2e6rex
+admitted: '2026-11-13'

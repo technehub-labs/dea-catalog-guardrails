@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 MP-6.3
 name: MP-6.3 — Nondestructive Techniques
-description: 'Apply nondestructive sanitization techniques to portable storage devices prior to connecting
-  such devices to the system under the following circumstances: organization-defined.'
+description: 'Apply nondestructive sanitization techniques to portable storage devices
+  prior to connecting such devices to the system under the following circumstances:
+  organization-defined.'
 enforcement: advisory
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control MP-6.3)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - mp
 - nist-800-53
 slug: mp-6-3-nondestructive-techniques
+assigned_id: dea:guardrail-mp-6-3-nondestructive-techniques-xkhxve
+admitted: '2026-11-13'

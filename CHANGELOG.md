@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-GRD-CAT-04: Guardrail Candidate Admission Batch 01
+
+Admitted 500 new `Guardrail` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +500, canonical unchanged; queue entries flipped to `admitted`.
+
 ### CR-GRD-CAT-03: Guardrail Candidate Corpus (NIST SP 800-53 Rev.5)
 
 1,196 Guardrail candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from the NIST SP 800-53 Rev.5 OSCAL catalog — 324 controls + 872 enhancements, each carrying its published statement/guidance prose, a published-document evidence citation, and a source_ref control identifier. Provenance recorded in ingestion/manifest.yaml (bank sha256, source URL). enforcement/domain mappings are provisional (documented, subject to canonical-admission review). No catalog entities change in this CR; admission follows in CR-GRD-CAT-04/05.

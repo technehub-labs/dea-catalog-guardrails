@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CP-9.4
 name: CP-9.4 — Protection from Unauthorized Modification
-description: Protection from Unauthorized Modification — published control expectation in the NIST SP
-  800-53 Rev.5 catalog (statement and guidance prose published in the OSCAL representation).
+description: Protection from Unauthorized Modification — published control expectation
+  in the NIST SP 800-53 Rev.5 catalog (statement and guidance prose published in the
+  OSCAL representation).
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-9.4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cp
 - nist-800-53
 slug: cp-9-4-protection-from-unauthorized-modification
+assigned_id: dea:guardrail-cp-9-4-protection-from-unauthorized-modification-nxnxm7
+admitted: '2026-11-13'
