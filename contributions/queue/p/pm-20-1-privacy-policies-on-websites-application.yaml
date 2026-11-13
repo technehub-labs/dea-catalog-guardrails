@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 PM-20.1
+name: PM-20.1 — Privacy Policies on Websites, Applications, and Digital Services
+description: (a) Are written in plain language and organized in a way that is easy to understand and navigate;
+  (b) Provide information needed by the public to make an informed decision about whether and how to interact
+  with the organization; and (c) Are updated whenever the organization makes a substantive change to the
+  practices i
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-20.1)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- pm
+- nist-800-53
+slug: pm-20-1-privacy-policies-on-websites-application

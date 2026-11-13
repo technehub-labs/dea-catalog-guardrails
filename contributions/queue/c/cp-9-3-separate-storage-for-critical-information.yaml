@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CP-9.3
+name: CP-9.3 — Separate Storage for Critical Information
+description: Store backup copies of organization-defined in a separate facility or in a fire rated container
+  that is not collocated with the operational system.
+enforcement: advisory
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-9.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- cp
+- nist-800-53
+slug: cp-9-3-separate-storage-for-critical-information

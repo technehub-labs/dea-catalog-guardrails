@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CA-6.2
+name: CA-6.2 — Joint Authorization — Inter-organization
+description: Employ a joint authorization process for the system that includes multiple authorizing officials
+  with at least one authorizing official from an organization external to the organization conducting
+  the authorization.
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-6.2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ca
+- nist-800-53
+slug: ca-6-2-joint-authorization-inter-organization

@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SI-7
+name: SI-7 — Software, Firmware, and Information Integrity
+description: 'a. Employ integrity verification tools to detect unauthorized changes to the following software,
+  firmware, and information: organization-defined ; and b. Take the following actions when unauthorized
+  changes to the software, firmware, and information are detected: organization-defined.'
+enforcement: automated-warn
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-7)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- si
+- nist-800-53
+slug: si-7-software-firmware-and-information-integrity

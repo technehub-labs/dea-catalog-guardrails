@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SR-11.2
+name: SR-11.2 — Configuration Control for Component Service and Repair
+description: 'Maintain configuration control over the following system components awaiting service or
+  repair and serviced or repaired components awaiting return to service: organization-defined.'
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SR-11.2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sr
+- nist-800-53
+slug: sr-11-2-configuration-control-for-component-serv

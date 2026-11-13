@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SA-4.12
+name: SA-4.12 — Data Ownership
+description: (a) Include organizational data ownership requirements in the acquisition contract; and (b)
+  Require all data to be removed from the contractor’s system and returned to the organization within
+  organization-defined.
+enforcement: advisory
+domain: software-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-4.12)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sa
+- nist-800-53
+slug: sa-4-12-data-ownership

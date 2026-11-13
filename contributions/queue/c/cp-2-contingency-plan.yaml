@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CP-2
+name: CP-2 — Contingency Plan
+description: 'a. Develop a contingency plan for the system that: 1. Identifies essential mission and business
+  functions and associated contingency requirements; 2. Provides recovery objectives, restoration priorities,
+  and metrics; 3. Addresses contingency roles, responsibilities, assigned individuals with contact information;
+  4.'
+enforcement: advisory
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- cp
+- nist-800-53
+slug: cp-2-contingency-plan

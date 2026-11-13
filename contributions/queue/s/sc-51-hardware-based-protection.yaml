@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SC-51
+name: SC-51 — Hardware-based Protection
+description: a. Employ hardware-based, write-protect for organization-defined ; and b. Implement specific
+  procedures for organization-defined to manually disable hardware write-protect for firmware modifications
+  and re-enable the write-protect prior to returning to operational mode.
+enforcement: advisory
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-51)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sc
+- nist-800-53
+slug: sc-51-hardware-based-protection

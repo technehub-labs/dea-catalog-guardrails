@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CA-7.3
+name: CA-7.3 — Trend Analyses
+description: Employ trend analyses to determine if control implementations, the frequency of continuous
+  monitoring activities, and the types of activities used in the continuous monitoring process need to
+  be modified based on empirical data.
+enforcement: automated-warn
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-7.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ca
+- nist-800-53
+slug: ca-7-3-trend-analyses

@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 PL-4
+name: PL-4 — Rules of Behavior
+description: a. Establish and provide to individuals requiring access to the system, the rules that describe
+  their responsibilities and expected behavior for information and system usage, security, and privacy;
+  b.
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PL-4)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- pl
+- nist-800-53
+slug: pl-4-rules-of-behavior

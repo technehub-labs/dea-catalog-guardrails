@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SA-10.5
+name: SA-10.5 — Mapping Integrity for Version Control
+description: Require the developer of the system, system component, or system service to maintain the
+  integrity of the mapping between the master build data describing the current version of security-relevant
+  hardware, software, and firmware and the on-site master copy of the data for the current version.
+enforcement: advisory
+domain: software-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-10.5)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sa
+- nist-800-53
+slug: sa-10-5-mapping-integrity-for-version-control

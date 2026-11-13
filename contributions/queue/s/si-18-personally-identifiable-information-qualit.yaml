@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SI-18
+name: SI-18 — Personally Identifiable Information Quality Operations
+description: a. Check the accuracy, relevance, timeliness, and completeness of personally identifiable
+  information across the information life cycle organization-defined ; and b. Correct or delete inaccurate
+  or outdated personally identifiable information.
+enforcement: advisory
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-18)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- si
+- nist-800-53
+slug: si-18-personally-identifiable-information-qualit

@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 PM-20
+name: PM-20 — Dissemination of Privacy Program Information
+description: a. Ensures that the public has access to information about organizational privacy activities
+  and can communicate with its senior agency official for privacy; b. Ensures that organizational privacy
+  practices and reports are publicly available; and c.
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-20)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- pm
+- nist-800-53
+slug: pm-20-dissemination-of-privacy-program-informati

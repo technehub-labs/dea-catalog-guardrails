@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SI-3
+name: SI-3 — Malicious Code Protection
+description: a. Implement organization-defined malicious code protection mechanisms at system entry and
+  exit points to detect and eradicate malicious code; b. Automatically update malicious code protection
+  mechanisms as new releases are available in accordance with organizational configuration management
+  policy and procedures; c.
+enforcement: automated-warn
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- si
+- nist-800-53
+slug: si-3-malicious-code-protection

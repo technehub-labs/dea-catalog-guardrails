@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 PM-27
+name: PM-27 — Privacy Reporting
+description: 'a. Develop organization-defined and disseminate to: 1. organization-defined to demonstrate
+  accountability with statutory, regulatory, and policy privacy mandates; and 2. organization-defined
+  and other personnel with responsibility for monitoring privacy program compliance; and b.'
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-27)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- pm
+- nist-800-53
+slug: pm-27-privacy-reporting

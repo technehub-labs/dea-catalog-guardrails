@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 AU-2
+name: AU-2 — Event Logging
+description: 'a. Identify the types of events that the system is capable of logging in support of the
+  audit function: organization-defined; b. Coordinate the event logging function with other organizational
+  entities requiring audit-related information to guide and inform the selection criteria for events to
+  be logged; c.'
+enforcement: advisory
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- au
+- nist-800-53
+slug: au-2-event-logging

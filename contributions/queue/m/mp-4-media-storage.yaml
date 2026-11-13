@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 MP-4
+name: MP-4 — Media Storage
+description: a. Physically control and securely store organization-defined within organization-defined
+  ; and b. Protect system media types defined in MP-4a until the media are destroyed or sanitized using
+  approved equipment, techniques, and procedures.
+enforcement: advisory
+domain: data-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control MP-4)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- mp
+- nist-800-53
+slug: mp-4-media-storage
