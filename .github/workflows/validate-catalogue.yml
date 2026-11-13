@@ -32,6 +32,8 @@ jobs:
         run: python3 scripts/check_parse.py
       - name: "Step 2: Pointer present and internally consistent"
         run: python3 scripts/check_pointer.py
+      - name: "Step 3b: Contribution queue gate (candidate intake)"
+        run: python3 scripts/check_contributions.py
       - name: "Step 3: Records directory posture"
         run: python3 scripts/check_record_posture.py
       - name: "Step 4: CATALOG.yaml freshness and validation"

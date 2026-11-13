@@ -13,4 +13,4 @@ root_model_pin: v0.8.0
 # Shared toolchain pin: regenerate_catalog.py, check_catalog_index.py,
 # check_authorship.py and the index schema are vendored from this
 # dea-metaframework release tag.
-metaframework_pin: v2.6.0
+metaframework_pin: v2.8.0

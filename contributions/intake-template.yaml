@@ -1,0 +1,27 @@
+# Intake submission template — Guardrail catalog
+# Copy to contributions/queue/<shard>/<slug>.yaml (shard = first slug char),
+# fill in, and open a PR. The queue gate (scripts/check_contributions.py)
+# validates it; admission (scripts/admit_entity.py) assigns the id.
+#
+# Do NOT add an 'id' — ids are content-derived at admission.
+# Do NOT add lifecycle_status / version — candidate admission sets
+# lifecycle_status: proposed, version: 0.1.0.
+
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: YYYY-MM-DD
+source_bank: <bank filename from ingestion/manifest.yaml>
+source_ref: <identifier in the cited source, e.g. 'NIST AC-2'>
+name: <real consumer-known name>
+slug: <lowercase kebab-case, <= 48 chars>
+description: >-
+  <what it is and the consuming purpose, >= 40 chars>
+enforcement: <advisory | automated-warn | automated-block | platform-enforced>
+domain: <enterprise-architecture | data-architecture | software-architecture | security-architecture | cloud-architecture | integration-architecture | process-architecture | governance>
+evidence:
+  sources:
+  - kind: published-document
+    reference: <URL or published identifier>
+  rationale: >-
+    <why this evidence supports the record, >= 20 chars>
+tags: [<kebab-case tokens>]
