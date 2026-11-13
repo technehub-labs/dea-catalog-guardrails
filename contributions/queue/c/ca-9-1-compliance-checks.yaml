@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CA-9.1
 name: CA-9.1 — Compliance Checks
-description: Perform security and privacy compliance checks on constituent system components prior to
-  the establishment of the internal connection.
+description: Perform security and privacy compliance checks on constituent system
+  components prior to the establishment of the internal connection.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-9.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ca
 - nist-800-53
 slug: ca-9-1-compliance-checks
+assigned_id: dea:guardrail-ca-9-1-compliance-checks-a9vcmm
+admitted: '2026-11-13'

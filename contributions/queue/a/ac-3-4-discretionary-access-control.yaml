@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-3.4
 name: AC-3.4 — Discretionary Access Control
-description: (a) Pass the information to any other subjects or objects; (b) Grant its privileges to other
-  subjects; (c) Change security attributes on subjects, objects, the system, or the system’s components;
-  (d) Choose the security attributes to be associated with newly created or revised objects; or (e) Change
-  the rules governing
+description: (a) Pass the information to any other subjects or objects; (b) Grant
+  its privileges to other subjects; (c) Change security attributes on subjects, objects,
+  the system, or the system’s components; (d) Choose the security attributes to be
+  associated with newly created or revised objects; or (e) Change the rules governing
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-3.4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-3-4-discretionary-access-control
+assigned_id: dea:guardrail-ac-3-4-discretionary-access-control-wr4s78
+admitted: '2026-11-13'

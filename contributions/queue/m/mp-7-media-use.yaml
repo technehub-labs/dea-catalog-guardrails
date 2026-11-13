@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 MP-7
 name: MP-7 — Media Use
-description: a. organization-defined the use of organization-defined on organization-defined using organization-defined
-  ; and b. Prohibit the use of portable storage devices in organizational systems when such devices have
-  no identifiable owner.
+description: a. organization-defined the use of organization-defined on organization-defined
+  using organization-defined ; and b. Prohibit the use of portable storage devices
+  in organizational systems when such devices have no identifiable owner.
 enforcement: automated-block
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control MP-7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - mp
 - nist-800-53
 slug: mp-7-media-use
+assigned_id: dea:guardrail-mp-7-media-use-82aejr
+admitted: '2026-11-13'

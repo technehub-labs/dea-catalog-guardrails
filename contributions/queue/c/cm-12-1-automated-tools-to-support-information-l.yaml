@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-12.1
 name: CM-12.1 — Automated Tools to Support Information Location
-description: Use automated tools to identify organization-defined on organization-defined to ensure controls
-  are in place to protect organizational information and individual privacy.
+description: Use automated tools to identify organization-defined on organization-defined
+  to ensure controls are in place to protect organizational information and individual
+  privacy.
 enforcement: automated-warn
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-12.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-12-1-automated-tools-to-support-information-l
+assigned_id: dea:guardrail-cm-12-1-automated-tools-to-support-information-l-aphk2u
+admitted: '2026-11-13'

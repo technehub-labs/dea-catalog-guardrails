@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-2
 name: CM-2 — Baseline Configuration
-description: 'a. Develop, document, and maintain under configuration control, a current baseline configuration
-  of the system; and b. Review and update the baseline configuration of the system: 1. organization-defined;
-  2. When required due to organization-defined ; and 3. When system components are installed or upgraded.'
+description: 'a. Develop, document, and maintain under configuration control, a current
+  baseline configuration of the system; and b. Review and update the baseline configuration
+  of the system: 1. organization-defined; 2. When required due to organization-defined
+  ; and 3. When system components are installed or upgraded.'
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-2-baseline-configuration
+assigned_id: dea:guardrail-cm-2-baseline-configuration-vtqkww
+admitted: '2026-11-13'

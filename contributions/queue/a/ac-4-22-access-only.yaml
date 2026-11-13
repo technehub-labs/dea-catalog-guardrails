@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-4.22
 name: AC-4.22 — Access Only
-description: Provide access from a single device to computing platforms, applications, or data residing
-  in multiple different security domains, while preventing information flow between the different security
-  domains.
+description: Provide access from a single device to computing platforms, applications,
+  or data residing in multiple different security domains, while preventing information
+  flow between the different security domains.
 enforcement: automated-block
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-4.22)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-4-22-access-only
+assigned_id: dea:guardrail-ac-4-22-access-only-j72t5u
+admitted: '2026-11-13'

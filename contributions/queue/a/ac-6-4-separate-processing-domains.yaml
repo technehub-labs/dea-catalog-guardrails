@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-6.4
 name: AC-6.4 — Separate Processing Domains
-description: Provide separate processing domains to enable finer-grained allocation of user privileges.
+description: Provide separate processing domains to enable finer-grained allocation
+  of user privileges.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-6.4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-6-4-separate-processing-domains
+assigned_id: dea:guardrail-ac-6-4-separate-processing-domains-cbq28z
+admitted: '2026-11-13'

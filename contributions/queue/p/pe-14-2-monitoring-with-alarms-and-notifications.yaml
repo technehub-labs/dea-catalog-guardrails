@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PE-14.2
 name: PE-14.2 — Monitoring with Alarms and Notifications
-description: Employ environmental control monitoring that provides an alarm or notification of changes
-  potentially harmful to personnel or equipment to organization-defined.
+description: Employ environmental control monitoring that provides an alarm or notification
+  of changes potentially harmful to personnel or equipment to organization-defined.
 enforcement: automated-warn
 domain: enterprise-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PE-14.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pe
 - nist-800-53
 slug: pe-14-2-monitoring-with-alarms-and-notifications
+assigned_id: dea:guardrail-pe-14-2-monitoring-with-alarms-and-notifications-6rrtx5
+admitted: '2026-11-13'

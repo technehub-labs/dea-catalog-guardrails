@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-4
 name: CM-4 — Impact Analyses
-description: Analyze changes to the system to determine potential security and privacy impacts prior to
-  change implementation.
+description: Analyze changes to the system to determine potential security and privacy
+  impacts prior to change implementation.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-4-impact-analyses
+assigned_id: dea:guardrail-cm-4-impact-analyses-3t8bda
+admitted: '2026-11-13'

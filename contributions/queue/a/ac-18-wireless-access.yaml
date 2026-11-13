@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-18
 name: AC-18 — Wireless Access
-description: a. Establish configuration requirements, connection requirements, and implementation guidance
-  for each type of wireless access; and b. Authorize each type of wireless access to the system prior
-  to allowing such connections.
+description: a. Establish configuration requirements, connection requirements, and
+  implementation guidance for each type of wireless access; and b. Authorize each
+  type of wireless access to the system prior to allowing such connections.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-18)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-18-wireless-access
+assigned_id: dea:guardrail-ac-18-wireless-access-8893w8
+admitted: '2026-11-13'

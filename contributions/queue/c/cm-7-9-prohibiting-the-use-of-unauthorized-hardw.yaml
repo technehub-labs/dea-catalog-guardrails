@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-7.9
 name: CM-7.9 — Prohibiting The Use of Unauthorized Hardware
-description: (a) Identify organization-defined; (b) Prohibit the use or connection of unauthorized hardware
-  components; (c) Review and update the list of authorized hardware components organization-defined.
+description: (a) Identify organization-defined; (b) Prohibit the use or connection
+  of unauthorized hardware components; (c) Review and update the list of authorized
+  hardware components organization-defined.
 enforcement: automated-block
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-7.9)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-7-9-prohibiting-the-use-of-unauthorized-hardw
+assigned_id: dea:guardrail-cm-7-9-prohibiting-the-use-of-unauthorized-hardw-wp33xc
+admitted: '2026-11-13'

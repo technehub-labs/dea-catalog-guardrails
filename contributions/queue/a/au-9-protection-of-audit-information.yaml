@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AU-9
 name: AU-9 — Protection of Audit Information
-description: a. Protect audit information and audit logging tools from unauthorized access, modification,
-  and deletion; and b. Alert organization-defined upon detection of unauthorized access, modification,
-  or deletion of audit information.
+description: a. Protect audit information and audit logging tools from unauthorized
+  access, modification, and deletion; and b. Alert organization-defined upon detection
+  of unauthorized access, modification, or deletion of audit information.
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-9)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - au
 - nist-800-53
 slug: au-9-protection-of-audit-information
+assigned_id: dea:guardrail-au-9-protection-of-audit-information-dgrk9w
+admitted: '2026-11-13'

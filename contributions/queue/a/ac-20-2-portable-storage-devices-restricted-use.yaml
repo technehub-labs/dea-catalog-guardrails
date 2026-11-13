@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AC-20.2
 name: AC-20.2 — Portable Storage Devices — Restricted Use
-description: Restrict the use of organization-controlled portable storage devices by authorized individuals
-  on external systems using organization-defined.
+description: Restrict the use of organization-controlled portable storage devices
+  by authorized individuals on external systems using organization-defined.
 enforcement: automated-block
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AC-20.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ac
 - nist-800-53
 slug: ac-20-2-portable-storage-devices-restricted-use
+assigned_id: dea:guardrail-ac-20-2-portable-storage-devices-restricted-use-uvt6kh
+admitted: '2026-11-13'

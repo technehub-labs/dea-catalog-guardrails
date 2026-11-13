@@ -1,0 +1,31 @@
+# CA-3.7 — Transitive Information Exchanges
+
+> (a) Identify transitive (downstream) information exchanges with other systems through the systems identified in (#ca-3_smt.a) ; and (b) Take measures to ensure that transitive (downstream) information exchanges cease when the controls on identified transitive (downstream) systems cannot be verified or validated.
+
+## Identity
+
+- **Record id**: `dea:guardrail-ca-3-7-transitive-information-exchanges-wnp6dg`
+- **Type**: Guardrail
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content). The enforcement and domain values are provisional programmatic mappings from the control family/title, subject to canonical-admission review.
+
+- kind: `published-document` — reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-3.7)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-13, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

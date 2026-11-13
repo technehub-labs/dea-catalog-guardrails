@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CA-7
 name: CA-7 — Continuous Monitoring
-description: 'a. Establishing the following system-level metrics to be monitored: organization-defined;
-  b. Establishing organization-defined for monitoring and organization-defined for assessment of control
-  effectiveness; c. Ongoing control assessments in accordance with the continuous monitoring strategy;
-  d.'
+description: 'a. Establishing the following system-level metrics to be monitored:
+  organization-defined; b. Establishing organization-defined for monitoring and organization-defined
+  for assessment of control effectiveness; c. Ongoing control assessments in accordance
+  with the continuous monitoring strategy; d.'
 enforcement: automated-warn
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ca
 - nist-800-53
 slug: ca-7-continuous-monitoring
+assigned_id: dea:guardrail-ca-7-continuous-monitoring-v3h4sr
+admitted: '2026-11-13'

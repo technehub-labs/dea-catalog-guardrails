@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 AT-3.5
 name: AT-3.5 — Processing Personally Identifiable Information
-description: Provide organization-defined with initial and organization-defined training in the employment
-  and operation of personally identifiable information processing and transparency controls.
+description: Provide organization-defined with initial and organization-defined training
+  in the employment and operation of personally identifiable information processing
+  and transparency controls.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AT-3.5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - at
 - nist-800-53
 slug: at-3-5-processing-personally-identifiable-inform
+assigned_id: dea:guardrail-at-3-5-processing-personally-identifiable-inform-vb2xc6
+admitted: '2026-11-13'

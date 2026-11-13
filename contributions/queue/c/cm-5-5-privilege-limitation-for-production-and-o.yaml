@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-5.5
 name: CM-5.5 — Privilege Limitation for Production and Operation
-description: (a) Limit privileges to change system components and system-related information within a
-  production or operational environment; and (b) Review and reevaluate privileges organization-defined.
+description: (a) Limit privileges to change system components and system-related information
+  within a production or operational environment; and (b) Review and reevaluate privileges
+  organization-defined.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-5.5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-5-5-privilege-limitation-for-production-and-o
+assigned_id: dea:guardrail-cm-5-5-privilege-limitation-for-production-and-o-b7u4cv
+admitted: '2026-11-13'

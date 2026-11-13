@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CA-5
 name: CA-5 — Plan of Action and Milestones
-description: a. Develop a plan of action and milestones for the system to document the planned remediation
-  actions of the organization to correct weaknesses or deficiencies noted during the assessment of the
-  controls and to reduce or eliminate known vulnerabilities in the system; and b.
+description: a. Develop a plan of action and milestones for the system to document
+  the planned remediation actions of the organization to correct weaknesses or deficiencies
+  noted during the assessment of the controls and to reduce or eliminate known vulnerabilities
+  in the system; and b.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ca
 - nist-800-53
 slug: ca-5-plan-of-action-and-milestones
+assigned_id: dea:guardrail-ca-5-plan-of-action-and-milestones-puv95r
+admitted: '2026-11-13'

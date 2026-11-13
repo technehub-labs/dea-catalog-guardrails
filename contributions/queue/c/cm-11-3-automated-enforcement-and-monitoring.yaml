@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-11.3
 name: CM-11.3 — Automated Enforcement and Monitoring
-description: Enforce and monitor compliance with software installation policies using organization-defined.
+description: Enforce and monitor compliance with software installation policies using
+  organization-defined.
 enforcement: automated-warn
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-11.3)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-11-3-automated-enforcement-and-monitoring
+assigned_id: dea:guardrail-cm-11-3-automated-enforcement-and-monitoring-v3f6nf
+admitted: '2026-11-13'

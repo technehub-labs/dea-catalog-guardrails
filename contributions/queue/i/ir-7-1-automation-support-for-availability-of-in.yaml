@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 IR-7.1
 name: IR-7.1 — Automation Support for Availability of Information and Support
-description: Increase the availability of incident response information and support using organization-defined.
+description: Increase the availability of incident response information and support
+  using organization-defined.
 enforcement: automated-warn
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IR-7.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ir
 - nist-800-53
 slug: ir-7-1-automation-support-for-availability-of-in
+assigned_id: dea:guardrail-ir-7-1-automation-support-for-availability-of-in-6v8r6j
+admitted: '2026-11-13'

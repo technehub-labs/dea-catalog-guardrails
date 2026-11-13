@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CP-8
 name: CP-8 — Telecommunications Services
-description: Establish alternate telecommunications services, including necessary agreements to permit
-  the resumption of organization-defined for essential mission and business functions within organization-defined
-  when the primary telecommunications capabilities are unavailable at either the primary or alternate
-  processing or stor
+description: Establish alternate telecommunications services, including necessary
+  agreements to permit the resumption of organization-defined for essential mission
+  and business functions within organization-defined when the primary telecommunications
+  capabilities are unavailable at either the primary or alternate processing or stor
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-8)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cp
 - nist-800-53
 slug: cp-8-telecommunications-services
+assigned_id: dea:guardrail-cp-8-telecommunications-services-k3sgxr
+admitted: '2026-11-13'

@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 CM-5.7
 name: CM-5.7 — Automatic Implementation of Security Safeguards
-description: Automatic Implementation of Security Safeguards — published control expectation in the NIST
-  SP 800-53 Rev.5 catalog (statement and guidance prose published in the OSCAL representation).
+description: Automatic Implementation of Security Safeguards — published control expectation
+  in the NIST SP 800-53 Rev.5 catalog (statement and guidance prose published in the
+  OSCAL representation).
 enforcement: automated-warn
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-5.7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - cm
 - nist-800-53
 slug: cm-5-7-automatic-implementation-of-security-safe
+assigned_id: dea:guardrail-cm-5-7-automatic-implementation-of-security-safe-th6pku
+admitted: '2026-11-13'
