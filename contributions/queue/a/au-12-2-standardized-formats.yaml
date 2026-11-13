@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 AU-12.2
+name: AU-12.2 — Standardized Formats
+description: Produce a system-wide (logical or physical) audit trail composed of audit records in a standardized
+  format.
+enforcement: automated-warn
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-12.2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- au
+- nist-800-53
+slug: au-12-2-standardized-formats

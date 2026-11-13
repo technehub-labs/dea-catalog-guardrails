@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CA-3
+name: CA-3 — Information Exchange
+description: a. Approve and manage the exchange of information between the system and other systems using
+  organization-defined; b.
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CA-3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ca
+- nist-800-53
+slug: ca-3-information-exchange

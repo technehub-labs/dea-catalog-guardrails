@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SA-15.11
+name: SA-15.11 — Archive System or Component
+description: Require the developer of the system or system component to archive the system or component
+  to be released or delivered together with the corresponding evidence supporting the final security and
+  privacy review.
+enforcement: advisory
+domain: software-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-15.11)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sa
+- nist-800-53
+slug: sa-15-11-archive-system-or-component

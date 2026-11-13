@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CP-9.6
+name: CP-9.6 — Redundant Secondary System
+description: Conduct system backup by maintaining a redundant secondary system that is not collocated
+  with the primary system and that can be activated without loss of information or disruption to operations.
+enforcement: advisory
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CP-9.6)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- cp
+- nist-800-53
+slug: cp-9-6-redundant-secondary-system

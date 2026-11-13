@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 MA-5.4
+name: MA-5.4 — Foreign Nationals
+description: (a) Foreign nationals with appropriate security clearances are used to conduct maintenance
+  and diagnostic activities on classified systems only when the systems are jointly owned and operated
+  by the United States and foreign allied governments, or owned and operated solely by foreign allied
+  governments; and (b) Approva
+enforcement: advisory
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control MA-5.4)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ma
+- nist-800-53
+slug: ma-5-4-foreign-nationals

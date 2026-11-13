@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 CM-3.1
+name: CM-3.1 — Automated Documentation, Notification, and Prohibition of Changes
+description: (a) Document proposed changes to the system; (b) Notify organization-defined of proposed
+  changes to the system and request change approval; (c) Highlight proposed changes to the system that
+  have not been approved or disapproved within organization-defined; (d) Prohibit changes to the system
+  until designated approvals a
+enforcement: automated-block
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control CM-3.1)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- cm
+- nist-800-53
+slug: cm-3-1-automated-documentation-notification-and

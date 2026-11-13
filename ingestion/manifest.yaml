@@ -1,0 +1,21 @@
+# Ingestion manifest — Guardrail candidate corpus (CR-GRD-CAT-03)
+# Provenance record for the contributions/queue intake corpus.
+# Records are candidates only (queue status: queued; admitted at
+# lifecycle_status: proposed / version 0.1.0 by the gated workflow).
+
+generated: '2026-11-13'
+generated_by: ingest-kit generate_queue.py (catalog population programme)
+submitted_by: Emmanuel A. Otchere
+record_count: 1196
+sources:
+- bank: nist-800-53-rev5.json
+  source: "NIST SP 800-53 Rev.5 control catalog (OSCAL JSON, usnistgov/oscal-content)"
+  url: "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json"
+  published: "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+  retrieved: '2026-11-13'
+  sha256: 5a24955c869934b7f068eecd90b2252f814202c332691f670f8cb44b1cc43878
+  records: 1196
+mapping_note: >-
+  enforcement/domain are provisional programmatic mappings from control family and title, documented here and in each record's evidence.rationale; they are candidate-state values subject to canonical-admission review.
+queue_layout: contributions/queue/<shard>/<slug>.yaml (shard = first slug
+  character, 0-9 fallback; entity-storage-layout.md §4 cap compliance)

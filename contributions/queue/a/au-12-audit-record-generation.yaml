@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 AU-12
+name: AU-12 — Audit Record Generation
+description: a. Provide audit record generation capability for the event types the system is capable of
+  auditing as defined in (#au-2_smt.a) on organization-defined; b. Allow organization-defined to select
+  the event types that are to be logged by specific components of the system; and c.
+enforcement: automated-warn
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-12)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- au
+- nist-800-53
+slug: au-12-audit-record-generation

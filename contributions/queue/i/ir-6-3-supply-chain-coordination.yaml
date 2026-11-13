@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 IR-6.3
+name: IR-6.3 — Supply Chain Coordination
+description: Provide incident information to the provider of the product or service and other organizations
+  involved in the supply chain or supply chain governance for systems or system components related to
+  the incident.
+enforcement: advisory
+domain: process-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IR-6.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ir
+- nist-800-53
+slug: ir-6-3-supply-chain-coordination

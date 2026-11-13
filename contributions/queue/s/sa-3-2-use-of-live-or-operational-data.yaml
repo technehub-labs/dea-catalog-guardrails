@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SA-3.2
+name: SA-3.2 — Use of Live or Operational Data
+description: (a) Approve, document, and control the use of live data in preproduction environments for
+  the system, system component, or system service; and (b) Protect preproduction environments for the
+  system, system component, or system service at the same impact or classification level as any live data
+  in use within the preprodu
+enforcement: advisory
+domain: software-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-3.2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sa
+- nist-800-53
+slug: sa-3-2-use-of-live-or-operational-data

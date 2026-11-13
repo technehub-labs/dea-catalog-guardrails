@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 IA-8.6
+name: IA-8.6 — Disassociability
+description: 'Implement the following measures to disassociate user attributes or identifier assertion
+  relationships among individuals, credential service providers, and relying parties: organization-defined.'
+enforcement: advisory
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control IA-8.6)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- ia
+- nist-800-53
+slug: ia-8-6-disassociability

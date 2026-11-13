@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 PE-11.2
+name: PE-11.2 — Alternate Power Supply — Self-contained
+description: (a) Self-contained; (b) Not reliant on external power generation; and (c) Capable of maintaining
+  organization-defined in the event of an extended loss of the primary power source.
+enforcement: advisory
+domain: enterprise-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PE-11.2)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- pe
+- nist-800-53
+slug: pe-11-2-alternate-power-supply-self-contained

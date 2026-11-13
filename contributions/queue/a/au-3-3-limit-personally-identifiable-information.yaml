@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 AU-3.3
+name: AU-3.3 — Limit Personally Identifiable Information Elements
+description: 'Limit personally identifiable information contained in audit records to the following elements
+  identified in the privacy risk assessment: organization-defined.'
+enforcement: automated-warn
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control AU-3.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- au
+- nist-800-53
+slug: au-3-3-limit-personally-identifiable-information

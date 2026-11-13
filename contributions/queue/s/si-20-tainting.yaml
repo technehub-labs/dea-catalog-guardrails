@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SI-20
+name: SI-20 — Tainting
+description: 'Embed data or capabilities in the following systems or system components to determine if
+  organizational data has been exfiltrated or improperly removed from the organization: organization-defined.'
+enforcement: advisory
+domain: security-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-20)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- si
+- nist-800-53
+slug: si-20-tainting

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-13'
+source_bank: nist-800-53-rev5.json
+source_ref: NIST SP 800-53 Rev.5 SA-11.3
+name: SA-11.3 — Independent Verification of Assessment Plans and Evidence
+description: (a) Require an independent agent satisfying organization-defined to verify the correct implementation
+  of the developer security and privacy assessment plans and the evidence produced during testing and
+  evaluation; and (b) Verify that the independent agent is provided with sufficient information to complete
+  the verifica
+enforcement: advisory
+domain: software-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-11.3)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
+    The enforcement and domain values are provisional programmatic mappings from the control family/title,
+    subject to canonical-admission review.
+tags:
+- sa
+- nist-800-53
+slug: sa-11-3-independent-verification-of-assessment-p
