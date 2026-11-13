@@ -69,12 +69,61 @@ def load_yaml(path: Path) -> Any:
         return yaml.safe_load(fh)
 
 
+# Top-level state groupings (CR-CATALOG-STRUCT-12). The state directory
+# names double as per-subtree content dir names (the subtree's own
+# research/, candidates/, retired/ dirs); a grouping is recognized only
+# when the state dir sits DIRECTLY under entities/v1-alpha/.
+_STATE_DIRS = ("research", "candidates", "retired")
+
+
+def _is_top_state_grouping(path: Path, entities_root: Path) -> bool:
+    """True if `path` is a state dir directly under the entities root."""
+    return path.parent == entities_root and path.name in _STATE_DIRS
+
+
+def _grouped_subtree_dirs(entities_root: Path) -> list[Path]:
+    """Direct children of every top-level state grouping."""
+    out: list[Path] = []
+    for name in _STATE_DIRS:
+        grouping = entities_root / name
+        if grouping.is_dir():
+            out.extend(p for p in grouping.iterdir() if p.is_dir())
+    return out
+
+
+def is_shard_dir(name: str) -> bool:
+    """True for a shard directory: a single lowercase letter or the digit
+    bucket `0-9` (entity-storage-layout.md §4 / CR-SVC-016 recipe)."""
+    return name == "0-9" or (len(name) == 1 and name.isalpha() and name.islower())
+
+
 def list_subtrees(catalog_root: Path) -> list[Path]:
-    """List every directory under `entities/v1-alpha/`; sorted lexicographically."""
+    """List every entity subtree under `entities/v1-alpha/`; sorted.
+
+    Flat layout: one directory per record directly under the entities
+    root. Grouped layout (CR-CATALOG-STRUCT-12): a state directory that
+    sits *directly* under the entities root (`research/`, `candidates/`,
+    `retired/`) groups whole entity subtrees by state, and its direct
+    children enumerate here. Shard layout (entity-storage-layout.md §4):
+    a single-letter (or `0-9`) shard directory under the entities root
+    groups record directories to respect GitHub's directory-entry cap;
+    its direct children enumerate here. State directories at deeper
+    levels keep their per-subtree semantics and do not enumerate.
+    """
     entities_root = catalog_root / "entities" / "v1-alpha"
     if not entities_root.exists():
         return []
-    return sorted([p for p in entities_root.iterdir() if p.is_dir()])
+    out: list[Path] = []
+    for top in sorted(entities_root.iterdir()):
+        if not top.is_dir():
+            continue
+        if is_shard_dir(top.name):
+            out.extend(sorted(p for p in top.iterdir() if p.is_dir()))
+        elif _is_top_state_grouping(top, entities_root):
+            out.extend(_grouped_subtree_dirs(entities_root))
+        else:
+            out.append(top)
+    return sorted(out)
 
 
 def schema_validate(payload: dict[str, Any], schema: dict[str, Any]) -> list[str]:
