@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-10
 name: PM-10 — Authorization Process
-description: a. Manage the security and privacy state of organizational systems and the environments in
-  which those systems operate through authorization processes; b. Designate individuals to fulfill specific
-  roles and responsibilities within the organizational risk management process; and c.
+description: a. Manage the security and privacy state of organizational systems and
+  the environments in which those systems operate through authorization processes;
+  b. Designate individuals to fulfill specific roles and responsibilities within the
+  organizational risk management process; and c.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-10)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-10-authorization-process
+assigned_id: dea:guardrail-pm-10-authorization-process-dn9b8f
+admitted: '2026-11-13'

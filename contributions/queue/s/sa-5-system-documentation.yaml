@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SA-5
 name: SA-5 — System Documentation
-description: 'a. Obtain or develop administrator documentation for the system, system component, or system
-  service that describes: 1. Secure configuration, installation, and operation of the system, component,
-  or service; 2. Effective use and maintenance of security and privacy functions and mechanisms; and 3.'
+description: 'a. Obtain or develop administrator documentation for the system, system
+  component, or system service that describes: 1. Secure configuration, installation,
+  and operation of the system, component, or service; 2. Effective use and maintenance
+  of security and privacy functions and mechanisms; and 3.'
 enforcement: advisory
 domain: software-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sa
 - nist-800-53
 slug: sa-5-system-documentation
+assigned_id: dea:guardrail-sa-5-system-documentation-xw8unm
+admitted: '2026-11-13'

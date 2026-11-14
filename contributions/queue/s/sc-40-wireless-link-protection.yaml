@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-40
 name: SC-40 — Wireless Link Protection
-description: 'Protect external and internal organization-defined from the following signal parameter attacks:
-  organization-defined.'
+description: 'Protect external and internal organization-defined from the following
+  signal parameter attacks: organization-defined.'
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-40)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-40-wireless-link-protection
+assigned_id: dea:guardrail-sc-40-wireless-link-protection-s9ppmf
+admitted: '2026-11-13'

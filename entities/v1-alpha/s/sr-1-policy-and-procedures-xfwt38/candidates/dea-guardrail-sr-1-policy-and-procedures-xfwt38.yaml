@@ -1,0 +1,33 @@
+id: dea:guardrail-sr-1-policy-and-procedures-xfwt38
+type: Guardrail
+name: SR-1 — Policy and Procedures
+description: 'a. Develop, document, and disseminate to organization-defined: 1.'
+version: 0.1.0
+lifecycle_status: proposed
+enforcement: advisory
+domain: governance
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SR-1)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-13'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-13'
+  updated_at: '2026-11-13'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- sr
+- nist-800-53

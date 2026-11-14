@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SR-6
 name: SR-6 — Supplier Assessments and Reviews
-description: Assess and review the supply chain-related risks associated with suppliers or contractors
-  and the system, system component, or system service they provide organization-defined.
+description: Assess and review the supply chain-related risks associated with suppliers
+  or contractors and the system, system component, or system service they provide
+  organization-defined.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SR-6)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sr
 - nist-800-53
 slug: sr-6-supplier-assessments-and-reviews
+assigned_id: dea:guardrail-sr-6-supplier-assessments-and-reviews-cc893m
+admitted: '2026-11-13'

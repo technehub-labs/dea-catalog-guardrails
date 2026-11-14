@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-2
 name: SI-2 — Flaw Remediation
-description: a. Identify, report, and correct system flaws; b. Test software and firmware updates related
-  to flaw remediation for effectiveness and potential side effects before installation; c. Install security-relevant
-  software and firmware updates within organization-defined of the release of the updates; and d.
+description: a. Identify, report, and correct system flaws; b. Test software and firmware
+  updates related to flaw remediation for effectiveness and potential side effects
+  before installation; c. Install security-relevant software and firmware updates
+  within organization-defined of the release of the updates; and d.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-2-flaw-remediation
+assigned_id: dea:guardrail-si-2-flaw-remediation-9pnnmh
+admitted: '2026-11-13'

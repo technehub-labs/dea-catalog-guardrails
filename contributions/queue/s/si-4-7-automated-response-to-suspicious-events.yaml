@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-4.7
 name: SI-4.7 — Automated Response to Suspicious Events
-description: '(a) Notify organization-defined of detected suspicious events; and (b) Take the following
-  actions upon detection: organization-defined.'
+description: '(a) Notify organization-defined of detected suspicious events; and (b)
+  Take the following actions upon detection: organization-defined.'
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-4.7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-4-7-automated-response-to-suspicious-events
+assigned_id: dea:guardrail-si-4-7-automated-response-to-suspicious-events-42ubyg
+admitted: '2026-11-13'

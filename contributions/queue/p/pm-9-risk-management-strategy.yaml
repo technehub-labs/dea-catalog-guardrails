@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-9
 name: PM-9 — Risk Management Strategy
-description: 'a. Develops a comprehensive strategy to manage: 1. Security risk to organizational operations
-  and assets, individuals, other organizations, and the Nation associated with the operation and use of
-  organizational systems; and 2.'
+description: 'a. Develops a comprehensive strategy to manage: 1. Security risk to
+  organizational operations and assets, individuals, other organizations, and the
+  Nation associated with the operation and use of organizational systems; and 2.'
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-9)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-9-risk-management-strategy
+assigned_id: dea:guardrail-pm-9-risk-management-strategy-3z3xrp
+admitted: '2026-11-13'

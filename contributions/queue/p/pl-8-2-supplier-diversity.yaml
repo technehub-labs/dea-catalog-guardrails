@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PL-8.2
 name: PL-8.2 — Supplier Diversity
-description: Require that organization-defined allocated to organization-defined are obtained from different
-  suppliers.
+description: Require that organization-defined allocated to organization-defined are
+  obtained from different suppliers.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PL-8.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pl
 - nist-800-53
 slug: pl-8-2-supplier-diversity
+assigned_id: dea:guardrail-pl-8-2-supplier-diversity-wyt7ug
+admitted: '2026-11-13'

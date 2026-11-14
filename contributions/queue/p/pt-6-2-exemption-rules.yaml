@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PT-6.2
 name: PT-6.2 — Exemption Rules
-description: Review all Privacy Act exemptions claimed for the system of records at organization-defined
-  to ensure they remain appropriate and necessary in accordance with law, that they have been promulgated
-  as regulations, and that they are accurately described in the system of records notice.
+description: Review all Privacy Act exemptions claimed for the system of records at
+  organization-defined to ensure they remain appropriate and necessary in accordance
+  with law, that they have been promulgated as regulations, and that they are accurately
+  described in the system of records notice.
 enforcement: advisory
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-6.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pt
 - nist-800-53
 slug: pt-6-2-exemption-rules
+assigned_id: dea:guardrail-pt-6-2-exemption-rules-qtabmg
+admitted: '2026-11-13'

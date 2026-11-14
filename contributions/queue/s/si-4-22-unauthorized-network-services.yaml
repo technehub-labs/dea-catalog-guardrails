@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-4.22
 name: SI-4.22 — Unauthorized Network Services
-description: (a) Detect network services that have not been authorized or approved by organization-defined
-  ; and (b) organization-defined when detected.
+description: (a) Detect network services that have not been authorized or approved
+  by organization-defined ; and (b) organization-defined when detected.
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-4.22)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-4-22-unauthorized-network-services
+assigned_id: dea:guardrail-si-4-22-unauthorized-network-services-w4tn9t
+admitted: '2026-11-13'

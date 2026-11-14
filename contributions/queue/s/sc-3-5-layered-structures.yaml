@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-3.5
 name: SC-3.5 — Layered Structures
-description: Implement security functions as a layered structure minimizing interactions between layers
-  of the design and avoiding any dependence by lower layers on the functionality or correctness of higher
-  layers.
+description: Implement security functions as a layered structure minimizing interactions
+  between layers of the design and avoiding any dependence by lower layers on the
+  functionality or correctness of higher layers.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-3.5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-3-5-layered-structures
+assigned_id: dea:guardrail-sc-3-5-layered-structures-juxhxf
+admitted: '2026-11-13'

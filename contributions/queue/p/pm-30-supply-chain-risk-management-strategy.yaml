@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-30
 name: PM-30 — Supply Chain Risk Management Strategy
-description: a. Develop an organization-wide strategy for managing supply chain risks associated with
-  the development, acquisition, maintenance, and disposal of systems, system components, and system services;
-  b. Implement the supply chain risk management strategy consistently across the organization; and c.
+description: a. Develop an organization-wide strategy for managing supply chain risks
+  associated with the development, acquisition, maintenance, and disposal of systems,
+  system components, and system services; b. Implement the supply chain risk management
+  strategy consistently across the organization; and c.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-30)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-30-supply-chain-risk-management-strategy
+assigned_id: dea:guardrail-pm-30-supply-chain-risk-management-strategy-mnqaqz
+admitted: '2026-11-13'

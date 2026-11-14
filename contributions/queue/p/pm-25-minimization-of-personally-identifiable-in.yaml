@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-25
-name: PM-25 — Minimization of Personally Identifiable Information Used in Testing, Training, and Research
-description: a. Develop, document, and implement policies and procedures that address the use of personally
-  identifiable information for internal testing, training, and research; b. Limit or minimize the amount
-  of personally identifiable information used for internal testing, training, and research purposes; c.
+name: PM-25 — Minimization of Personally Identifiable Information Used in Testing,
+  Training, and Research
+description: a. Develop, document, and implement policies and procedures that address
+  the use of personally identifiable information for internal testing, training, and
+  research; b. Limit or minimize the amount of personally identifiable information
+  used for internal testing, training, and research purposes; c.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-25)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-25-minimization-of-personally-identifiable-in
+assigned_id: dea:guardrail-pm-25-minimization-of-personally-identifiable-in-mu7ekp
+admitted: '2026-11-13'

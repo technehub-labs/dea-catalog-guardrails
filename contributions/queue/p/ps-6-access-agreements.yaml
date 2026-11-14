@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PS-6
 name: PS-6 — Access Agreements
-description: 'a. Develop and document access agreements for organizational systems; b. Review and update
-  the access agreements organization-defined ; and c. Verify that individuals requiring access to organizational
-  information and systems: 1. Sign appropriate access agreements prior to being granted access; and 2.'
+description: 'a. Develop and document access agreements for organizational systems;
+  b. Review and update the access agreements organization-defined ; and c. Verify
+  that individuals requiring access to organizational information and systems: 1.
+  Sign appropriate access agreements prior to being granted access; and 2.'
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PS-6)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ps
 - nist-800-53
 slug: ps-6-access-agreements
+assigned_id: dea:guardrail-ps-6-access-agreements-a8fwe6
+admitted: '2026-11-13'

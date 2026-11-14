@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PT-5
 name: PT-5 — Privacy Notice
-description: a. Is available to individuals upon first interacting with an organization, and subsequently
-  at organization-defined; b. Is clear and easy-to-understand, expressing information about personally
-  identifiable information processing in plain language; c.
+description: a. Is available to individuals upon first interacting with an organization,
+  and subsequently at organization-defined; b. Is clear and easy-to-understand, expressing
+  information about personally identifiable information processing in plain language;
+  c.
 enforcement: advisory
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pt
 - nist-800-53
 slug: pt-5-privacy-notice
+assigned_id: dea:guardrail-pt-5-privacy-notice-xcakqh
+admitted: '2026-11-13'

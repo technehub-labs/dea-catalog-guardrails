@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 RA-2
 name: RA-2 — Security Categorization
-description: a. Categorize the system and information it processes, stores, and transmits; b. Document
-  the security categorization results, including supporting rationale, in the security plan for the system;
-  and c.
+description: a. Categorize the system and information it processes, stores, and transmits;
+  b. Document the security categorization results, including supporting rationale,
+  in the security plan for the system; and c.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control RA-2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ra
 - nist-800-53
 slug: ra-2-security-categorization
+assigned_id: dea:guardrail-ra-2-security-categorization-9kafue
+admitted: '2026-11-13'

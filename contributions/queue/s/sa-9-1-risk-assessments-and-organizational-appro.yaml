@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SA-9.1
 name: SA-9.1 — Risk Assessments and Organizational Approvals
-description: (a) Conduct an organizational assessment of risk prior to the acquisition or outsourcing
-  of information security services; and (b) Verify that the acquisition or outsourcing of dedicated information
-  security services is approved by organization-defined.
+description: (a) Conduct an organizational assessment of risk prior to the acquisition
+  or outsourcing of information security services; and (b) Verify that the acquisition
+  or outsourcing of dedicated information security services is approved by organization-defined.
 enforcement: advisory
 domain: software-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-9.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sa
 - nist-800-53
 slug: sa-9-1-risk-assessments-and-organizational-appro
+assigned_id: dea:guardrail-sa-9-1-risk-assessments-and-organizational-appro-g6kmhk
+admitted: '2026-11-13'

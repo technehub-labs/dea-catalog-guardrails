@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SA-9.8
 name: SA-9.8 — Processing and Storage Location — U.S. Jurisdiction
-description: Restrict the geographic location of information processing and data storage to facilities
-  located within in the legal jurisdictional boundary of the United States.
+description: Restrict the geographic location of information processing and data storage
+  to facilities located within in the legal jurisdictional boundary of the United
+  States.
 enforcement: automated-block
 domain: software-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-9.8)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sa
 - nist-800-53
 slug: sa-9-8-processing-and-storage-location-u-s-juris
+assigned_id: dea:guardrail-sa-9-8-processing-and-storage-location-u-s-juris-s499k9
+admitted: '2026-11-13'

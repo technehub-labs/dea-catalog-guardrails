@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-5.1
 name: PM-5.1 — Inventory of Personally Identifiable Information
-description: Establish, maintain, and update organization-defined an inventory of all systems, applications,
-  and projects that process personally identifiable information.
+description: Establish, maintain, and update organization-defined an inventory of
+  all systems, applications, and projects that process personally identifiable information.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-5.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-5-1-inventory-of-personally-identifiable-info
+assigned_id: dea:guardrail-pm-5-1-inventory-of-personally-identifiable-info-ggbsss
+admitted: '2026-11-13'
