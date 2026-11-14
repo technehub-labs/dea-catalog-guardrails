@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SA-11.6
 name: SA-11.6 — Attack Surface Reviews
-description: Require the developer of the system, system component, or system service to perform attack
-  surface reviews.
+description: Require the developer of the system, system component, or system service
+  to perform attack surface reviews.
 enforcement: advisory
 domain: software-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-11.6)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sa
 - nist-800-53
 slug: sa-11-6-attack-surface-reviews
+assigned_id: dea:guardrail-sa-11-6-attack-surface-reviews-4qye76
+admitted: '2026-11-13'

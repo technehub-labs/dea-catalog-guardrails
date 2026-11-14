@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SR-4.3
 name: SR-4.3 — Validate as Genuine and Not Altered
-description: 'Employ the following controls to validate that the system or system component received is
-  genuine and has not been altered: organization-defined.'
+description: 'Employ the following controls to validate that the system or system
+  component received is genuine and has not been altered: organization-defined.'
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SR-4.3)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sr
 - nist-800-53
 slug: sr-4-3-validate-as-genuine-and-not-altered
+assigned_id: dea:guardrail-sr-4-3-validate-as-genuine-and-not-altered-bhks4b
+admitted: '2026-11-13'

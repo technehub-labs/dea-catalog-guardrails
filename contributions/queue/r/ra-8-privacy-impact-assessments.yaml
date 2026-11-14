@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 RA-8
 name: RA-8 — Privacy Impact Assessments
-description: 'a. Developing or procuring information technology that processes personally identifiable
-  information; and b. Initiating a new collection of personally identifiable information that: 1. Will
-  be processed using information technology; and 2.'
+description: 'a. Developing or procuring information technology that processes personally
+  identifiable information; and b. Initiating a new collection of personally identifiable
+  information that: 1. Will be processed using information technology; and 2.'
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control RA-8)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ra
 - nist-800-53
 slug: ra-8-privacy-impact-assessments
+assigned_id: dea:guardrail-ra-8-privacy-impact-assessments-57ze9k
+admitted: '2026-11-13'

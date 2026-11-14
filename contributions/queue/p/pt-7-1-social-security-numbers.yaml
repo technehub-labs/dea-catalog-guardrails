@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PT-7.1
 name: PT-7.1 — Social Security Numbers
-description: (a) Eliminate unnecessary collection, maintenance, and use of Social Security numbers, and
-  explore alternatives to their use as a personal identifier; (b) Do not deny any individual any right,
-  benefit, or privilege provided by law because of such individual’s refusal to disclose his or her Social
-  Security number; and (
+description: (a) Eliminate unnecessary collection, maintenance, and use of Social
+  Security numbers, and explore alternatives to their use as a personal identifier;
+  (b) Do not deny any individual any right, benefit, or privilege provided by law
+  because of such individual’s refusal to disclose his or her Social Security number;
+  and (
 enforcement: automated-block
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-7.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pt
 - nist-800-53
 slug: pt-7-1-social-security-numbers
+assigned_id: dea:guardrail-pt-7-1-social-security-numbers-7yv3st
+admitted: '2026-11-13'

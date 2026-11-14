@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 RA-7
 name: RA-7 — Risk Response
-description: Respond to findings from security and privacy assessments, monitoring, and audits in accordance
-  with organizational risk tolerance.
+description: Respond to findings from security and privacy assessments, monitoring,
+  and audits in accordance with organizational risk tolerance.
 enforcement: automated-warn
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control RA-7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ra
 - nist-800-53
 slug: ra-7-risk-response
+assigned_id: dea:guardrail-ra-7-risk-response-cpzdtp
+admitted: '2026-11-13'

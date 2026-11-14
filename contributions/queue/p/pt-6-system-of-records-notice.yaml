@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PT-6
 name: PT-6 — System of Records Notice
-description: a. Draft system of records notices in accordance with OMB guidance and submit new and significantly
-  modified system of records notices to the OMB and appropriate congressional committees for advance review;
-  b. Publish system of records notices in the Federal Register; and c.
+description: a. Draft system of records notices in accordance with OMB guidance and
+  submit new and significantly modified system of records notices to the OMB and appropriate
+  congressional committees for advance review; b. Publish system of records notices
+  in the Federal Register; and c.
 enforcement: advisory
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-6)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pt
 - nist-800-53
 slug: pt-6-system-of-records-notice
+assigned_id: dea:guardrail-pt-6-system-of-records-notice-qescnj
+admitted: '2026-11-13'

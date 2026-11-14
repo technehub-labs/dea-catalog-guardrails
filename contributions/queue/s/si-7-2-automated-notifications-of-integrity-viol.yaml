@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-7.2
 name: SI-7.2 — Automated Notifications of Integrity Violations
-description: Employ automated tools that provide notification to organization-defined upon discovering
-  discrepancies during integrity verification.
+description: Employ automated tools that provide notification to organization-defined
+  upon discovering discrepancies during integrity verification.
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-7.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-7-2-automated-notifications-of-integrity-viol
+assigned_id: dea:guardrail-si-7-2-automated-notifications-of-integrity-viol-cp5pzk
+admitted: '2026-11-13'

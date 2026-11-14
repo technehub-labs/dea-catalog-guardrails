@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-46
 name: SC-46 — Cross Domain Policy Enforcement
-description: Implement a policy enforcement mechanism organization-defined between the physical and/or
-  network interfaces for the connecting security domains.
+description: Implement a policy enforcement mechanism organization-defined between
+  the physical and/or network interfaces for the connecting security domains.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-46)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-46-cross-domain-policy-enforcement
+assigned_id: dea:guardrail-sc-46-cross-domain-policy-enforcement-fxvnex
+admitted: '2026-11-13'

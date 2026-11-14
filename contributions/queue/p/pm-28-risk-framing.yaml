@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-28
 name: PM-28 — Risk Framing
-description: 'a. Identify and document: 1. Assumptions affecting risk assessments, risk responses, and
-  risk monitoring; 2. Constraints affecting risk assessments, risk responses, and risk monitoring; 3.
-  Priorities and trade-offs considered by the organization for managing risk; and 4. Organizational risk
-  tolerance; b.'
+description: 'a. Identify and document: 1. Assumptions affecting risk assessments,
+  risk responses, and risk monitoring; 2. Constraints affecting risk assessments,
+  risk responses, and risk monitoring; 3. Priorities and trade-offs considered by
+  the organization for managing risk; and 4. Organizational risk tolerance; b.'
 enforcement: automated-warn
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-28)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-28-risk-framing
+assigned_id: dea:guardrail-pm-28-risk-framing-t3hfz4
+admitted: '2026-11-13'

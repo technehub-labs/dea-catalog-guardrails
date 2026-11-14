@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-3.4
 name: SI-3.4 — Updates Only by Privileged Users
-description: Update malicious code protection mechanisms only when directed by a privileged user.
+description: Update malicious code protection mechanisms only when directed by a privileged
+  user.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-3.4)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-3-4-updates-only-by-privileged-users
+assigned_id: dea:guardrail-si-3-4-updates-only-by-privileged-users-unc99k
+admitted: '2026-11-13'

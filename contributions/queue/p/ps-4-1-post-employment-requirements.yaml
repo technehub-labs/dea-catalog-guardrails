@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PS-4.1
 name: PS-4.1 — Post-employment Requirements
-description: (a) Notify terminated individuals of applicable, legally binding post-employment requirements
-  for the protection of organizational information; and (b) Require terminated individuals to sign an
-  acknowledgment of post-employment requirements as part of the organizational termination process.
+description: (a) Notify terminated individuals of applicable, legally binding post-employment
+  requirements for the protection of organizational information; and (b) Require terminated
+  individuals to sign an acknowledgment of post-employment requirements as part of
+  the organizational termination process.
 enforcement: advisory
 domain: process-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PS-4.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - ps
 - nist-800-53
 slug: ps-4-1-post-employment-requirements
+assigned_id: dea:guardrail-ps-4-1-post-employment-requirements-tvtdkx
+admitted: '2026-11-13'

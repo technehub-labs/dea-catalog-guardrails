@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-1
 name: PM-1 — Information Security Program Plan
-description: 'a. Develop and disseminate an organization-wide information security program plan that:
-  1. Provides an overview of the requirements for the security program and a description of the security
-  program management controls and common controls in place or planned for meeting those requirements;
-  2.'
+description: 'a. Develop and disseminate an organization-wide information security
+  program plan that: 1. Provides an overview of the requirements for the security
+  program and a description of the security program management controls and common
+  controls in place or planned for meeting those requirements; 2.'
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-1-information-security-program-plan
+assigned_id: dea:guardrail-pm-1-information-security-program-plan-dasxjj
+admitted: '2026-11-13'

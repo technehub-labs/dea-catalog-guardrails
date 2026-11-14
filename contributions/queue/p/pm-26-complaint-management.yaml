@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-26
 name: PM-26 — Complaint Management
-description: a. Mechanisms that are easy to use and readily accessible by the public; b. All information
-  necessary for successfully filing complaints; c. Tracking mechanisms to ensure all complaints received
-  are reviewed and addressed within organization-defined; d.
+description: a. Mechanisms that are easy to use and readily accessible by the public;
+  b. All information necessary for successfully filing complaints; c. Tracking mechanisms
+  to ensure all complaints received are reviewed and addressed within organization-defined;
+  d.
 enforcement: automated-warn
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-26)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-26-complaint-management
+assigned_id: dea:guardrail-pm-26-complaint-management-b9z756
+admitted: '2026-11-13'

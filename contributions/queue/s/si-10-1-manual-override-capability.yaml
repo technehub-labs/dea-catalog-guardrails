@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-10.1
 name: SI-10.1 — Manual Override Capability
-description: '(a) Provide a manual override capability for input validation of the following information
-  inputs: organization-defined; (b) Restrict the use of the manual override capability to only organization-defined
-  ; and (c) Audit the use of the manual override capability.'
+description: '(a) Provide a manual override capability for input validation of the
+  following information inputs: organization-defined; (b) Restrict the use of the
+  manual override capability to only organization-defined ; and (c) Audit the use
+  of the manual override capability.'
 enforcement: automated-block
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-10.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-10-1-manual-override-capability
+assigned_id: dea:guardrail-si-10-1-manual-override-capability-42hkxs
+admitted: '2026-11-13'

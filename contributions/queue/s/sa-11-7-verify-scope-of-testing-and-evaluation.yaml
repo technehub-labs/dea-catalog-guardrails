@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SA-11.7
 name: SA-11.7 — Verify Scope of Testing and Evaluation
-description: 'Require the developer of the system, system component, or system service to verify that
-  the scope of testing and evaluation provides complete coverage of the required controls at the following
-  level of rigor: organization-defined.'
+description: 'Require the developer of the system, system component, or system service
+  to verify that the scope of testing and evaluation provides complete coverage of
+  the required controls at the following level of rigor: organization-defined.'
 enforcement: advisory
 domain: software-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SA-11.7)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sa
 - nist-800-53
 slug: sa-11-7-verify-scope-of-testing-and-evaluation
+assigned_id: dea:guardrail-sa-11-7-verify-scope-of-testing-and-evaluation-vg6wyf
+admitted: '2026-11-13'

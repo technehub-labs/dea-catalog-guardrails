@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-4.5
 name: SI-4.5 — System-generated Alerts
-description: 'Alert organization-defined when the following system-generated indications of compromise
-  or potential compromise occur: organization-defined.'
+description: 'Alert organization-defined when the following system-generated indications
+  of compromise or potential compromise occur: organization-defined.'
 enforcement: automated-warn
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-4.5)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-4-5-system-generated-alerts
+assigned_id: dea:guardrail-si-4-5-system-generated-alerts-6q9fcw
+admitted: '2026-11-13'

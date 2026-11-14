@@ -1,0 +1,37 @@
+id: dea:guardrail-pt-7-1-social-security-numbers-7yv3st
+type: Guardrail
+name: PT-7.1 — Social Security Numbers
+description: (a) Eliminate unnecessary collection, maintenance, and use of Social
+  Security numbers, and explore alternatives to their use as a personal identifier;
+  (b) Do not deny any individual any right, benefit, or privilege provided by law
+  because of such individual’s refusal to disclose his or her Social Security number;
+  and (
+version: 0.1.0
+lifecycle_status: proposed
+enforcement: automated-block
+domain: data-architecture
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-7.1)
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-13'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-13'
+  updated_at: '2026-11-13'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- pt
+- nist-800-53

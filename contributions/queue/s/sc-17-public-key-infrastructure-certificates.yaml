@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-17
 name: SC-17 — Public Key Infrastructure Certificates
-description: a. Issue public key certificates under an organization-defined or obtain public key certificates
-  from an approved service provider; and b. Include only approved trust anchors in trust stores or certificate
-  stores managed by the organization.
+description: a. Issue public key certificates under an organization-defined or obtain
+  public key certificates from an approved service provider; and b. Include only approved
+  trust anchors in trust stores or certificate stores managed by the organization.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-17)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-17-public-key-infrastructure-certificates
+assigned_id: dea:guardrail-sc-17-public-key-infrastructure-certificates-jnqxg8
+admitted: '2026-11-13'

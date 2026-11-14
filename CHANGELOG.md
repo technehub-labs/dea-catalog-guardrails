@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-GRD-CAT-05: Guardrail Candidate Admission Batch 02
+
+Admitted 596 new `Guardrail` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +596, canonical unchanged; queue entries flipped to `admitted`.
+
 ### CR-GRD-CAT-04: Guardrail Candidate Admission Batch 01
 
 Admitted 500 new `Guardrail` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +500, canonical unchanged; queue entries flipped to `admitted`.

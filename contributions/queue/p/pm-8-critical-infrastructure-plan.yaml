@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PM-8
 name: PM-8 — Critical Infrastructure Plan
-description: Address information security and privacy issues in the development, documentation, and updating
-  of a critical infrastructure and key resources protection plan.
+description: Address information security and privacy issues in the development, documentation,
+  and updating of a critical infrastructure and key resources protection plan.
 enforcement: advisory
 domain: governance
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PM-8)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pm
 - nist-800-53
 slug: pm-8-critical-infrastructure-plan
+assigned_id: dea:guardrail-pm-8-critical-infrastructure-plan-hx7fch
+admitted: '2026-11-13'

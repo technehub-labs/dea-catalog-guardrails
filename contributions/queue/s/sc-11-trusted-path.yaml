@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-11
 name: SC-11 — Trusted Path
-description: a. Provide a organization-defined isolated trusted communications path for communications
-  between the user and the trusted components of the system; and b.
+description: a. Provide a organization-defined isolated trusted communications path
+  for communications between the user and the trusted components of the system; and
+  b.
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-11)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-11-trusted-path
+assigned_id: dea:guardrail-sc-11-trusted-path-bw2f29
+admitted: '2026-11-13'

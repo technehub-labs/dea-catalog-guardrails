@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 PT-5.2
 name: PT-5.2 — Privacy Act Statements
-description: Include Privacy Act statements on forms that collect information that will be maintained
-  in a Privacy Act system of records, or provide Privacy Act statements on separate forms that can be
-  retained by individuals.
+description: Include Privacy Act statements on forms that collect information that
+  will be maintained in a Privacy Act system of records, or provide Privacy Act statements
+  on separate forms that can be retained by individuals.
 enforcement: advisory
 domain: data-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control PT-5.2)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - pt
 - nist-800-53
 slug: pt-5-2-privacy-act-statements
+assigned_id: dea:guardrail-pt-5-2-privacy-act-statements-h6aq39
+admitted: '2026-11-13'

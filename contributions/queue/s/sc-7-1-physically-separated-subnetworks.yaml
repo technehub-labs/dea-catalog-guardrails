@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SC-7.1
 name: SC-7.1 — Physically Separated Subnetworks
-description: Physically Separated Subnetworks — published control expectation in the NIST SP 800-53 Rev.5
-  catalog (statement and guidance prose published in the OSCAL representation).
+description: Physically Separated Subnetworks — published control expectation in the
+  NIST SP 800-53 Rev.5 catalog (statement and guidance prose published in the OSCAL
+  representation).
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SC-7.1)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - sc
 - nist-800-53
 slug: sc-7-1-physically-separated-subnetworks
+assigned_id: dea:guardrail-sc-7-1-physically-separated-subnetworks-dup75f
+admitted: '2026-11-13'

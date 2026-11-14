@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-13'
 source_bank: nist-800-53-rev5.json
 source_ref: NIST SP 800-53 Rev.5 SI-17
 name: SI-17 — Fail-safe Procedures
-description: 'Implement the indicated fail-safe procedures when the indicated failures occur: organization-defined.'
+description: 'Implement the indicated fail-safe procedures when the indicated failures
+  occur: organization-defined.'
 enforcement: advisory
 domain: security-architecture
 evidence:
   sources:
   - kind: published-document
     reference: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final (control SI-17)
-  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation, usnistgov/oscal-content).
-    The enforcement and domain values are provisional programmatic mappings from the control family/title,
-    subject to canonical-admission review.
+  rationale: Cited from the NIST SP 800-53 Rev.5 control catalog (OSCAL representation,
+    usnistgov/oscal-content). The enforcement and domain values are provisional programmatic
+    mappings from the control family/title, subject to canonical-admission review.
 tags:
 - si
 - nist-800-53
 slug: si-17-fail-safe-procedures
+assigned_id: dea:guardrail-si-17-fail-safe-procedures-kfpbzn
+admitted: '2026-11-13'
